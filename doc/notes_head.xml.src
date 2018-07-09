@@ -4,7 +4,7 @@
 <chapter>
   <header>
     <copyright>
-      <year>1999</year><year>2018</year>
+      <year>2018</year>
       <holder>Ericsson AB. All Rights Reserved.</holder>
     </copyright>
     <legalnotice>
@@ -26,8 +26,32 @@
     <file>notes.xml</file>
   </header>
 
+   <section><title>CORBA 4.5.1</title>
 
-  <section><title>corba 4.5</title>
+    <section><title>Fixed Bugs and Malfunctions</title>
+      <list>
+        <item>
+	  <p>
+	    Optimize encoding/decoding for pure 7-bit ascii atoms in IC.
+	    </p>
+          <p>
+	    Own Id: OTP-15023 Aux Id(s): ERIERL-150</p>
+        </item>
+        <item>
+	  <p>
+	    Fixed various build issues. Note that you need to build the
+	    <c>corba</c> repo against an OTP of at least version 21.0.3. See
+	    the <c>README.md</c> file for updated build instructions.
+	    </p>
+          <p>
+	    Own Id: OTP-15177 Aux Id(s): OTP-14283, OTP-15176, ERIERL-198, ERIERL-202, ERL-640</p>
+        </item>
+      </list>
+    </section>
+
+  </section>
+
+  <section><title>CORBA 4.5</title>
 
     <section><title>Improvements and New Features</title>
       <list>
@@ -46,6 +70,3 @@
     </section>
 
   </section>
-
-</chapter>
-
